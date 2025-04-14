@@ -35,16 +35,16 @@ post:
   edit: Edited on
 
 search:
-  title: Search
-  load_data: Loading the Database
+  title: 搜索
+  load_data: 数据库加载中
   algolia_search:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}."
-    hits_stats: '${hits} results found in ${time} ms'
+    input_placeholder: 搜索文章
+    hits_empty: "找不到您查询的内容：${query}"
+    hits_stats: '找到 ${hits} 条结果，用时 ${time} 毫秒'
 
   local_search:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}"
+    input_placeholder: 搜索文章
+    hits_empty: "找不到您查询的内容：${query}"
 
 pagination:
   prev: Previous Post
